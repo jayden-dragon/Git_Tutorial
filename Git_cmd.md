@@ -94,3 +94,46 @@ git push origin master
 
 ### .gitinore 
 Github에 올릴 필요가 없는 파일
+
+
+
+### Github에서 소스 받아오기
+```bash
+git clone hhttps://github.com/
+```
+
+### 원격 저장소에 들어가지 않고 변경사항을 확인하는 방법
+```bash
+git fetch
+git status
+```
+
+### 변경된 내용을 받아오는 방법
+```bash
+git pull origin master
+```
+
+### git branch 생성 후 이동
+```bash
+git branch branch1
+git checkout branch1
+
+git checkout -b branch_name
+```
+
+### git push branch
+```bash
+git add workBranch1
+git commit -m "add workBranch1"
+git push origin branch1
+```
+
+### branch 삭제
+```bash
+git branch -d branch1
+git push origin --delete origin/branch1
+```
+
+### branch 주고 받기
+
+
