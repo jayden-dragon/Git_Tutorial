@@ -92,6 +92,6 @@ git commit -m "commit"
 git push origin master
 ```
 
-### .gitnore 
+### .gitinore 
 Github에 올릴 필요가 없는 파일
 
