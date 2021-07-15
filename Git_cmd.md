@@ -84,3 +84,14 @@ git remote add remote_repo_name https://github.com/user_name/repo_name.git
 ```bash
 git push -u origin master  // 브랜치의 기본이름 master, 원격저장소의 기본이름 origin
 ```
+
+### 소스코드 수정 후 업데이트
+```bash
+git add file_name
+git commit -m "commit" 
+git push origin master
+```
+
+### .gitnore 
+Github에 올릴 필요가 없는 파일
+
