@@ -1,5 +1,7 @@
 # Git Command
 
+## Git
+
 ### Git initialize
 ```bash
 git init
@@ -75,6 +77,8 @@ git log --graph --all --decorate
 git rebase branch_name       // merge와 차이점 : 기존 커밋 이력이 변경됨
 ```
 
+## Github
+
 ### Github 원격저장소 생성
 ```bash
 git remote add remote_repo_name https://github.com/user_name/repo_name.git
@@ -94,7 +98,6 @@ git push origin master
 
 ### .gitinore 
 Github에 올릴 필요가 없는 파일
-
 
 
 ### Github에서 소스 받아오기
@@ -134,6 +137,13 @@ git branch -d branch1
 git push origin --delete origin/branch1
 ```
 
-### branch 주고 받기
+### local & remote branch 확인
+```bash
+git branch -a
+```
 
+### 원격 브랜치를 로컬 브랜치로 받아오기
+```bash
+git checkout -b branch1 origin/branch1
+```
 
